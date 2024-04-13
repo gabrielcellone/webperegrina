@@ -39,7 +39,7 @@ text {
 
 h1 {
     font-size: 30;
-    text-align: center;
+    text-align: auto;
     font-family: fantasy; 
 }
 
@@ -56,6 +56,12 @@ h3 {
  color: black;
 }
 
+h4 {
+    font-size: 18;
+    text-align: auto;
+    font-family: fantasy; 
+    color: white
+}
 p1 {
     color: grey;
 }
@@ -68,6 +74,13 @@ p1 {
 p2 {
     font-style: italic;
 }
+p3 {
+    font-size: 18;
+    text-align: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: white;
+}
+
 picture {
     display: block;
     margin: 0 auto;
