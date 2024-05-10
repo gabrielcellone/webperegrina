@@ -92,7 +92,16 @@ picture {
     width: 80%;
     
   }
-
+.fondonegro {
+          text-align: center;
+        text-justify: distribute-all-lines;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        border: 0.5px dotted white ;
+        margin: 5px;
+       
+}
   .video-contenedor {
     position: relative;
     padding-bottom: 70%;
