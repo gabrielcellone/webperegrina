@@ -62,6 +62,12 @@ h4 {
     font-family: fantasy; 
     color: white
 }
+h5{
+    font-size: 30;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke 
+}
 p1 {
     color: grey;
 }
@@ -82,7 +88,7 @@ p3 {
 }
 
 p4 {
-    color: black
+    
 }
 
 picture {
@@ -100,6 +106,16 @@ picture {
         padding: 15px;
         border: 0.5px dotted white ;
         margin: 5px;
+             
+}
+.fondogris {
+    text-align: center;
+  text-justify: distribute-all-lines;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  padding: 15px;
+  border: 0.5px dotted white ;
+  margin: 5px;
        
 }
   .video-contenedor {
@@ -117,3 +133,26 @@ picture {
     width: 100%;
     height: 100%;
 }
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+  
+  .img-responsive  {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align:justify
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+   
+  }
