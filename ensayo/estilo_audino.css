@@ -36,7 +36,11 @@ text {
 .show {
     display: block;
   }
-
+.henny-penny-regular {
+  font-family: "Henny Penny", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 h1 {
     font-size: 30;
     text-align: auto;
