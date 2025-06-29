@@ -36,11 +36,7 @@ text {
 .show {
     display: block;
   }
-.henny-penny-regular {
-  font-family: "Henny Penny", serif;
-  font-weight: 400;
-  font-style: normal;
-}
+
 h1 {
     font-size: 30;
     text-align: auto;
@@ -72,6 +68,32 @@ h5{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: whitesmoke 
 }
+h6{
+  font-size: medium;
+  text-align: center;
+}
+.henny-penny-regular {
+  font-family: "Henny Penny", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.zen-loop-regular {
+  font-family: "Zen Loop", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.zen-loop-regular-italic {
+  font-family: "Zen Loop", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
 p1 {
     color: grey;
 }
@@ -143,9 +165,7 @@ picture {
     display: flex;
     justify-content: space-around;
   }
-  
-
-  
+   
   .img-responsive  {
     text-decoration: none;
     font-size: 28px;
